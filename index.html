@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin & Chriza | Civil Wedding Invitation</title>
+    <meta
+      name="description"
+      content="Join us for the civil wedding of Austin A. Zuñiga and Chriza Mae F. Madria."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;500;600;700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-hero intro-locked">
+    <div class="photo-bg" aria-hidden="true">
+      <div class="bg-layer bg-current"></div>
+      <div class="bg-layer bg-next"></div>
+      <div class="bg-vignette"></div>
+    </div>
+    <div class="intro-overlay" id="introOverlay" aria-label="Invitation envelope">
+      <div class="intro-card">
+        <p class="intro-kicker">You Are Invited</p>
+        <div class="envelope" id="introEnvelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="envelope-letter">
+            <p>To Our Wedding!</p>
+          </div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+        </div>
+        <button class="intro-open-btn" id="introOpenBtn" type="button">Open Invitation</button>
+      </div>
+    </div>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">
+      Play Wedding Song
+    </button>
+    <audio id="bgMusic" loop preload="auto" autoplay playsinline>
+      <source src="assets/audio/wedding-song.mp3?v=20260226v4" type="audio/mpeg" />
+    </audio>
+    <header class="hero" id="home" data-theme="hero">
+      <nav class="nav">
+        <a class="brand" href="#home">Austin & Chriza</a>
+        <div class="nav-links">
+          <a href="#details">Details</a>
+          <a href="#location">Location</a>
+          <a href="#program">Program</a>
+          <a href="#rsvp">RSVP</a>
+        </div>
+      </nav>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Civil Wedding Invitation</p>
+        <h1>
+          <span class="name-line">Earl Austin A. Zuñiga</span>
+          <span class="ampersand">&</span>
+          <span class="name-line">Chriza Mae F. Madria</span>
+        </h1>
+        <p class="invite-line">Together with our families, we invite you to our wedding!</p>
+        <a class="btn" href="#rsvp">Confirm Attendance</a>
+      </div>
+      <a class="scroll-indicator" href="#details" aria-label="Scroll to details">
+        <span>Scroll For Details</span>
+        <span class="scroll-indicator-arrow" aria-hidden="true">↓</span>
+      </a>
+    </header>
+    <div class="auto-scroll-hint" id="autoScrollHint" aria-live="polite">
+      <span class="auto-scroll-dot"></span>
+      Auto-scroll on (every 9s)
+    </div>
+
+    <main>
+      <section class="section reveal" id="details" data-theme="details">
+        <div class="section-head">
+          <p class="eyebrow">With Joyful Hearts</p>
+          <h2>We invite you to celebrate our union.</h2>
+        </div>
+        <div class="details-grid">
+          <article class="card reveal">
+            <h3>Date</h3>
+            <p>Saturday, March 28, 2026</p>
+          </article>
+          <article class="card reveal">
+            <h3>Time</h3>
+            <p>9:30 AM to 1:00 PM</p>
+          </article>
+          <article class="card reveal">
+            <h3>Ceremony</h3>
+            <p>Civil Wedding</p>
+          </article>
+          <article class="card reveal">
+            <h3>Venue</h3>
+            <p>Lola Felings Bulan Branch, Bulan, Sorsogon</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section location reveal" id="location" data-theme="location">
+        <div class="section-head">
+          <p class="eyebrow">Venue</p>
+          <h2>Celebrate with us in Bulan, Sorsogon.</h2>
+        </div>
+        <p class="lead">
+          Lola Felings Bulan Branch<br />
+          Bulan, Sorsogon
+        </p>
+        <a
+          class="btn btn-outline"
+          href="https://maps.google.com/?q=Lola%20Felings%20Bulan%20Branch%2C%20Bulan%2C%20Sorsogon"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open in Google Maps
+        </a>
+      </section>
+
+      <section class="section reveal" id="program" data-theme="program">
+        <div class="section-head">
+          <p class="eyebrow">Wedding Program</p>
+          <h2>Scroll to see our celebration flow.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="time">9:30 AM</span>
+            <h3>Guest Arrival</h3>
+            <p>Warm welcome and seating of guests.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="time">10:30 AM</span>
+            <h3>Civil Wedding Ceremony</h3>
+            <p>Exchange of vows and signing of marriage contract.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="time">11:30 AM</span>
+            <h3>Lunch Reception</h3>
+            <p>Simple meal and celebration with family and friends.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="time">12:30 PM</span>
+            <h3>Photos & Toasts</h3>
+            <p>Group photos and messages of love.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="time">1:00 PM</span>
+            <h3>Closing</h3>
+            <p>Farewell and gratitude to everyone who joined us.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section rsvp reveal" id="rsvp" data-theme="rsvp">
+        <div class="section-head">
+          <p class="eyebrow">RSVP</p>
+          <h2>Kindly let us know if you can celebrate with us.</h2>
+        </div>
+
+        <form class="rsvp-form" id="rsvpForm">
+          <label for="guestName">Full Name</label>
+          <input id="guestName" name="guestName" type="text" required />
+
+          <label for="attendance">Will you attend?</label>
+          <select id="attendance" name="attendance" required>
+            <option value="">Please select</option>
+            <option value="Yes, I will attend">Yes, I will attend</option>
+            <option value="Sorry, I cannot attend">Sorry, I cannot attend</option>
+          </select>
+
+          <label for="message">Message for the Couple (optional)</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <button class="btn" type="submit">Create RSVP Message</button>
+        </form>
+
+        <div class="rsvp-output" id="rsvpOutput" hidden>
+          <h3>Your RSVP is ready</h3>
+          <p id="rsvpPreview"></p>
+          <div class="output-actions">
+            <button class="btn btn-outline" id="copyBtn" type="button">Copy Message</button>
+            <a class="btn btn-outline" id="emailBtn" href="#">Open Email App</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>With love, Austin & Chriza</p>
+      <p>March 28, 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
